@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.homePage {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; }
+  .homePage header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .homePage header .logo {
+      display: flex; }
+      .homePage header .logo .logoPhoto {
+        width: 30px;
+        height: 30px; }
+      .homePage header .logo .logoText {
+        position: relative;
+        top: 8px;
+        left: 10px;
+        font-size: 18px; }
+    .homePage header nav {
+      width: 500px;
+      height: 10vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .homePage header nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 18px; }
+    .homePage header .logIn {
+      width: 96px;
+      height: 40px;
+      color: white;
+      font-size: 16px;
+      background-color: #19bce4;
+      border: none;
+      border-radius: 10px; }
+  .homePage .home {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/backgroundhome.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .homePage .home .title {
+      font-size: 64px;
+      color: white; }
+    .homePage .home .choose {
+      width: 700px;
+      height: 70px;
+      background-color: white;
+      border: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .homePage .home .choose select {
+        border: none; }
+      .homePage .home .choose .search {
+        width: 150px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        background-color: #19bce4;
+        color: white; }
+
+.responses {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/responsesbacground.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  .responses .response {
+    font-size: 48px; }
+  .responses .peopleSay {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .responses .card1 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .responses .card1 .photoPlace {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background-image: url(../img/williamsons.png); }
+  .responses .card2 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .responses .card2 .photoPlace2 {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background-image: url(../img/farhad.png); }
+  .responses .card3 {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .responses .card3 .photoPlace3 {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background-image: url(../img/peter.png); }
+
+/*# sourceMappingURL=style.css.map */

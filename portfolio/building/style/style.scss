@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homePage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .logo{
+           display: flex;
+       
+        .logoPhoto{
+            width: 30px;
+            height: 30px;
+        }
+        .logoText{
+            position: relative;
+            top: 8px;
+            left: 10px;
+            font-size: 18px;
+        }
+    }
+    nav{
+        width: 500px;
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+    }
+    .logIn{
+        width: 96px;
+        height: 40px;
+        color: white;
+        font-size: 16px;
+        background-color: rgba(25, 188, 228, 1);
+        border: none;
+        border-radius: 10px;
+    }
+    
+    }
+    .home{
+        width: 100%;
+        height: 90vh;
+        background-image: url(../img/backgroundhome.png);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .title{
+            font-size: 64px;
+            color: white;
+        }
+        .choose{
+            width: 700px;
+            height: 70px;
+            background-color: white;
+            border: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            select{
+                border: none;
+            }
+            .search{
+                width: 150px;
+                height: 40px;
+                border: none;
+                border-radius: 10px;
+                background-color: rgba(25, 188, 228, 1);
+                color: white;
+            }
+            
+        }
+        
+    }
+}
+.responses{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/responsesbacground.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .response{
+        font-size: 48px;
+    }
+    .peopleSay{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .card1{
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .photoPlace{
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background-image: url(../img/williamsons.png);
+        }
+    }
+    .card2{
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .photoPlace2{
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background-image: url(../img/farhad.png);
+        }
+    }
+    .card3{
+        width: 300px;
+        height: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        .photoPlace3{
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background-image: url(../img/peter.png);
+        }
+       
+    }
+}

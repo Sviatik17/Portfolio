@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .computerImg{
+            width: 300px;
+            height: 200px;
+        }
+        .tabletImg{
+            width: 300px;
+            height: 200px;
+        }
+        p{
+            position: relative;
+            left: 100px;
+        }
+        .phoneImg{
+            width: 200px;
+            height: 500px;
+            position: relative;
+            left: 50px;
+        }
+        div{
+            width: 400px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+         @media screen and (max-width:1400px){
+            .computer{
+                display: flex;
+                flex-direction: column;
+            }
+            .tablet{
+                display: none;
+            }
+            .phone{
+                display: none;
+            }
+        }
+      
+        @media screen and (max-width:800px){
+            .computer{
+                display: none;
+            }
+            .tablet{
+                display: flex;
+                flex-direction: column;
+            }
+            .phone{
+                display: none;
+            }
+        }
+          @media screen and (max-width:500px){
+            .computer{
+                display: none;
+            }
+            .tablet{
+                display: none;
+            }
+            .phone{
+                display: flex;
+                    
+            }
+        }
+       
+        
+
+    </style>
+</head>
+<body>
+    <div class="wrap" >
+    <div class="computer" > <p>Your devise is:</p> 
+    <img src="computer.jpg" alt="" class="computerImg" > 
+    <p>computer</p> 
+    </div>
+    <div class="tablet" >
+    <p>Your devise is:</p>
+     <img src="tablet.jpg" alt="" class="tabletImg" >
+      <p>tablet</p> 
+    </div>
+    <div class="phone" > 
+    <p class="phonep" >Your devise is:</p> 
+    <img src="phone.jpg" alt="" class="phoneImg" > 
+    <p class="phonep"  >phone</p>
+ </div>
+</div>
+</body>
+</html>

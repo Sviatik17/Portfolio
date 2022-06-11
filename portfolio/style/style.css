@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.wrap {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: white;
+  background: linear-gradient(45deg, white 30%, #f24e08 70%); }
+  .wrap .homeLeft {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .wrap .homeLeft .photoPlace {
+      width: 300px;
+      height: 308px;
+      border-radius: 20px;
+      box-shadow: 0 2px 10px #f24e08;
+      background-image: url(../img/myphoto.png); }
+  .wrap .homeRight {
+    width: 50%;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .wrap .homeRight nav {
+      width: 550px;
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      position: relative;
+      right: 300px; }
+      .wrap .homeRight nav a {
+        color: black;
+        text-decoration: none;
+        font-family: monospace;
+        font-weight: 200;
+        font-size: 16px; }
+    .wrap .homeRight .userName {
+      font-size: 24px;
+      font-family: monospace;
+      font-weight: 600;
+      margin-top: 50px; }
+    .wrap .homeRight .userPosition {
+      font-size: 36px;
+      font-weight: 900;
+      margin-top: 20px;
+      font-family: monospace; }
+      .wrap .homeRight .userPosition .orange {
+        color: orange; }
+    .wrap .homeRight .aboutMe {
+      width: 130px;
+      text-decoration: none;
+      border: none;
+      padding: 10px 30px;
+      color: #ffff;
+      background-color: #f24e08;
+      border-radius: 5px; }
+    .wrap .homeRight .social {
+      width: 200px;
+      display: flex;
+      justify-content: space-around; }
+      .wrap .homeRight .social .insta {
+        width: 50px;
+        height: 50px;
+        border-radius: 30%;
+        box-shadow: 0 2px 10px #f24e08; }
+      .wrap .homeRight .social .you {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 2px 10px #f24e08; }
+      .wrap .homeRight .social .face {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        box-shadow: 0 2px 10px #f24e08; }
+
+.skil {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  background: linear-gradient(45deg, white 30%, #f24e08 70%); }
+  .skil nav {
+    width: 550px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+    position: relative;
+    left: 380px; }
+    .skil nav a {
+      color: black;
+      text-decoration: none;
+      font-family: monospace;
+      font-weight: 200;
+      font-size: 16px; }
+  .skil .skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .skil .column1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    height: 95vh; }
+    .skil .column1 .cardHtml {
+      width: 200px;
+      height: 50px;
+      background: black;
+      background: linear-gradient(45deg, black 33%, #777777 66%, #dad8d8 99%);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .skil .column1 .cardHtml .point {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white; }
+    .skil .column1 .cardCss {
+      width: 200px;
+      height: 50px;
+      background: black;
+      background: linear-gradient(45deg, black 33%, #777777 66%, #dad8d8 99%);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .skil .column1 .cardCss .point {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white; }
+    .skil .column1 .cardSass {
+      width: 200px;
+      height: 50px;
+      background: black;
+      background: linear-gradient(45deg, black 33%, #777777 66%, #dad8d8 99%);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .skil .column1 .cardSass .point {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white; }
+  .skil .column2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    height: 95vh; }
+    .skil .column2 .cardBootstrap {
+      width: 200px;
+      height: 50px;
+      background: black;
+      background: linear-gradient(45deg, black 33%, #777777 66%, #dad8d8 99%);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .skil .column2 .cardBootstrap .point {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white; }
+    .skil .column2 .cardFigma {
+      width: 200px;
+      height: 50px;
+      background: black;
+      background: linear-gradient(45deg, black 33%, #777777 66%, #dad8d8 99%);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .skil .column2 .cardFigma .point {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white; }
+    .skil .column2 .cardFlexbox {
+      width: 200px;
+      height: 50px;
+      background: black;
+      background: linear-gradient(45deg, black 33%, #777777 66%, #dad8d8 99%);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .skil .column2 .cardFlexbox .point {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white; }
+  .skil .column3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    height: 95vh; }
+    .skil .column3 .cardPositions {
+      width: 200px;
+      height: 50px;
+      background: black;
+      background: linear-gradient(45deg, black 33%, #777777 66%, #dad8d8 99%);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .skil .column3 .cardPositions .point {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white; }
+    .skil .column3 .cardKeyframes {
+      width: 200px;
+      height: 50px;
+      background: black;
+      background: linear-gradient(45deg, black 33%, #777777 66%, #dad8d8 99%);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .skil .column3 .cardKeyframes .point {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white; }
+    .skil .column3 .cardHover {
+      width: 200px;
+      height: 50px;
+      background: black;
+      background: linear-gradient(45deg, black 33%, #777777 66%, #dad8d8 99%);
+      border-radius: 25px;
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      .skil .column3 .cardHover .point {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: white; }
+
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: white;
+  background: linear-gradient(45deg, white 30%, #f24e08 70%); }
+  .about nav {
+    width: 550px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+    position: relative;
+    left: 380px; }
+    .about nav a {
+      color: black;
+      text-decoration: none;
+      font-family: monospace;
+      font-weight: 200;
+      font-size: 16px; }
+  .about .me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .about .me .meAbout {
+      font-size: 20px;
+      font-family: monospace; }
+    .about .me .myPhoto {
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+      box-shadow: 0 2px 10px #f24e08;
+      background-image: url(../img/aboutme.png); }
+
+.projects {
+  width: 100%;
+  height: 115vh;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  background: linear-gradient(45deg, white 30%, #f24e08 70%); }
+  .projects header {
+    width: 100%;
+    height: 15vh; }
+    .projects header nav {
+      width: 550px;
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      margin: 50px 0;
+      position: relative;
+      left: 380px; }
+      .projects header nav a {
+        color: black;
+        text-decoration: none;
+        font-family: monospace;
+        font-weight: 200;
+        font-size: 16px; }
+  .projects .project {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .projects .project .row1 {
+      width: 100%;
+      height: 45vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin: 50px 0; }
+    .projects .project .row2 {
+      width: 100%;
+      height: 45vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
